@@ -20,7 +20,7 @@ export default class AddCustomerIdToOrders1603588810944 implements MigrationInte
                 referencedColumnNames: ['id'],
                 referencedTableName: 'customers',
                 onDelete: 'SET NULL'
-            });
+            })
         )
     }
 
